@@ -1,0 +1,89 @@
+body {
+	font-family: Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+	background: url("../images/index.jpg");
+	background-size: cover;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.6;
+}
+
+body, dd, dl, fieldset, h1, h2, h3, h4, h5, h6, ol, p, textarea, ul {
+	margin: 0;
+}
+
+div {
+	display: block;
+}
+
+.login_box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -190px;
+	margin-top: -270px;
+	-webkit-border-radius: 4px;
+	background-color: #fff;
+	width: 380px;
+	height: 540px;
+	-webkit-box-shadow: #999 0 2px 10px;
+}
+
+.login_box .qrcode {
+	position: relative;
+	text-align: center;
+}
+
+.login_box .qrcode .sub_title {
+	text-align: center;
+	font-size: 20px;
+	color: #353535;
+	margin-bottom: 20px;
+}
+
+.login_box .qrcode .sub_desc {
+	text-align: center;
+	color: #888;
+	font-size: 18px;
+}
+
+.login_box .qrcode .img {
+	display: block;
+	width: 270px;
+	height: 270px;
+	margin: 42px auto 12px;
+}
+
+.switch {
+	color: #000;
+    border: 1px solid rgba(0,0,0,.2);
+    width: 220px;
+    margin: 30px auto;
+    display: block;
+    text-decoration: none;
+    line-height: 2.55555556;
+    border-radius: 4px;
+    outline: 0;
+    text-align: center;
+}
+
+.confirm {
+	color: #fff;
+    border: 1px solid #1aad19;
+    background-color: #1aad19;
+    margin-top: 60px;
+    width: 220px;
+    margin: 30px auto;
+    display: block;
+    text-decoration: none;
+    line-height: 2.55555556;
+    border-radius: 4px;
+    outline: 0;
+    text-align: center;
+}
+
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}

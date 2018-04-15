@@ -1,0 +1,211 @@
+body {
+	font-family: Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+	font-weight: normal;
+	background: #F5F5F5;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+div {
+	display: block;
+}
+
+#BS {
+	margin: 0 auto -138px;
+	padding: 0;
+	width: 100%;
+	min-height: 100%;
+	height: auto!important;
+}
+
+.BS-T {
+	background: #006633;
+	height: 50px;
+	margin-bottom: 27px;
+	width: 100%;
+	letter-spacing: 1px;
+}
+
+.BS-Title {
+	height: 50px;
+	margin: 0 auto;
+	width: 960px;
+}
+
+.logo {
+	border: 0;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	vertical-align: middle;
+}
+
+.logout {
+	color: #fff;
+	padding: 15px 15px;
+	display: inline-block;
+	text-decoration: none;
+	float: right;
+}
+
+a.logout:hover, a.logout:active {
+	background-color: #003300;
+}
+
+
+.BS-box {
+	text-align: left;
+	margin: 0 auto;
+	width: 960px;
+}
+
+.MBContent {
+	width: 918px;
+	margin: 35px auto 55px;
+	padding: 0 0 40px 0;
+	background: #FFF;
+	overflow: hidden;
+	border: 1px solid #F5F5F5;
+}
+
+.MTitle {
+	background: url("/images/title.jpg") no-repeat;
+	width: 855px;
+    height: 73px;
+    padding: 0 35px 0 30px;
+    line-height: 65px;
+}
+
+.MTitle h2 {
+    float: left;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: normal;
+}
+
+h2 {
+
+    font-size: 12px;
+    display: inline;
+    margin: 0;
+}
+
+.MLbox {
+    width: 880px;
+    margin: 20px auto 8px;
+    padding: 0 20px;
+}
+
+.MLbox-LB {
+    width: 120px;
+    float: left;
+    text-align: center;
+}
+
+.MLbox-LB li a {
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background-color: #bbbbbb;
+    text-decoration: none;
+}
+
+a.button:active {
+	background-color: #666666;
+	text-decoration: none;
+}
+
+.MLbox-LB li {
+	float: left;
+	background: #aaa9a9;
+	line-height: 39px;
+	font-size: 16px;
+	width: 113px;
+	color: #FFFFFF;
+	margin-bottom: 5px;
+	padding: 0px;
+	list-style: none;
+	border: none;
+}
+
+.MLbox-BC {
+    width: 756px;
+    border: 2px solid #30afde;
+    float: right;
+}
+
+.MOM-bt {
+    background: #efeeee;
+    height: 32px;
+    width: 756px;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.MOM-lbt {
+    float: left;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+
+#chatrooms {
+    width: 730px;
+    margin: 0px auto 20px;
+    padding: 0px;
+    list-style: none;
+    border: none;
+    height: 400px;
+    overflow-y: scroll;
+}
+#friendInfo {
+    width: 300px;
+    margin: 0px auto 20px;
+    padding: 0px;
+    list-style: none;
+    border: none;
+    height: 200px;
+    overflow-y: scroll;
+}
+#friendInfo li {
+    border-bottom: 1px dashed #afaead;
+    padding: 6px 5px;
+    cursor: pointer;
+    margin: 2px 0px;
+    list-style: none;
+    border: none;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 635px;
+    line-height: 20px;
+    font-size: 14px;
+}
+#chatrooms li {
+    border-bottom: 1px dashed #afaead;
+    padding: 6px 5px;
+    cursor: pointer;
+    margin: 2px 0px;
+    list-style: none;
+    border: none;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 635px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.chatroom_1 {
+	background-color: #efeeee;
+}
+
+
+.Info {
+	padding-left: 30px;
+}

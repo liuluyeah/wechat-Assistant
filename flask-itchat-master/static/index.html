@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+    <title>扫码登录</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="row">
+    <div class="center-block" style="width:450px; margin-top: 50px">
+        <div class="center-block" style="width:450px;">
+            <p id="toast" class="center-block" style="width:450px;"></p>
+        </div>
+        <div class="center-block">
+            <img id="qr">
+        </div>
+        <div class="center-block" style="width:400px;margin-top: 20px">
+            <button id="login" style="width:360px;" class="btn btn-success btn-lg center-block" data-loading-text="Loading..."
+                    type="button"> 登录
+            </button>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        var tk = Math.random()
+        $('#qr').attr('src','/qr?random=' + tk)
+
+        $("#login").click(function () {
+            $("#toast").html(" 正在初始化数据，需要一段时间，请客官稍等 <(＾－＾)> ");
+            var token = tk //$("#acl-token").val()
+            //if (token == "") {
+            //    alert("please input alc-token")
+            //    return
+            //}
+            $.get("/login?token=" + token, function (data) {
+                if (data.error) {
+                    alert(data.error)
+                } else {
+                    //alert(data['friends'])
+                    window.location.href='analyse.html?fs='+data['friends']+'&rs='+data['rooms']+'&m='+data['male']
+                    +'&fm='+data['female']+'&other='+data['other']+'&p1='+data['p1']+'&p2='+data['p2']+'&c1='+data['c1']
+                    +'&c2='+data['c2'];
+                }
+            })
+        })
+    });
+</script>
+</html>
