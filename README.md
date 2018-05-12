@@ -13,3 +13,7 @@
 ![主页](https://github.com/liuluyeah/wechat_analyse/blob/master/%E4%B8%BB%E9%A1%B5.png)
 
 ![功能页](https://github.com/liuluyeah/wechat_analyse/blob/master/%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA.png)
+
+# 声明
+
+本软件仅供学习交流，如作他用所承受的法律责任一概与作者无关（下载使用即代表你同意上述观点）
