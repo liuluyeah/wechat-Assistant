@@ -5,8 +5,8 @@ def zhengzhi(content):
     module = 'wenzhi'
     action = 'TextSensitivity'
     config = {
-        'secretId': 'AKIDQkx41DfNH9uVvAs7Wq00rcDdw40pQDfz',
-        'secretKey': 'IPeoqmW5SzXUQCnDVtLhuxWyGe1TQJ0W',
+        'secretId': 'xxxxx41DfNH9uVxxx7Wq0xxxxx',
+        'secretKey': 'xxxxxxx5SzXUQCxxLhuxxxxxx',
         'Region': 'gz',
         'method': 'POST'
     }
@@ -24,8 +24,8 @@ def laji(content):
     module = 'wenzhi'
     action = 'TextSensitivity'
     config = {
-        'secretId': 'AKIDQkx41DfNH9uVvAs7Wq00rcDdw40pQDfz',
-        'secretKey': 'IPeoqmW5SzXUQCnDVtLhuxWyGe1TQJ0W',
+        'secretId': 'xxxxxxxxxxxxxuVvAs7Wq00rcDdwxxxxxxxxz',
+        'secretKey': 'xxxxxxxxxxxxnDVtLhuxWyGexxxxxxxxxxx',
         'Region': 'gz',
         'method': 'POST'
     }
