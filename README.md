@@ -18,11 +18,13 @@ data.rar为压缩文件，包含80万条垃圾数据，作为数据特征提取�
 
 三、文档资料说明
 
-1、文智语义接口技术文档详情如下：https://cloud.tencent.com/product/api , http://nlp.qq.com/help.cgi 主要用到 Python SDK 以及云 API 接口
+1、语义接口技术文档详情如下：https://cloud.tencent.com/product/api , http://nlp.qq.com/help.cgi 
 
-2、网站框架：flask
+2、主要用到 Python SDK 以及 云API 接口
 
-3、服务器环境：linux ，服务器的项目目录为：var/www/liuluapp/
+3、网站框架：flask
+
+4、服务器环境：linux ，服务器的项目目录为：var/www/liuluapp/
 
 
 # 运行结果
