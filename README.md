@@ -1,4 +1,8 @@
-# wechat_analyse
+# 声明
+
+本软件仅供学习交流，如作他用所承受的法律责任一概与作者无关（下载使用即代表你同意上述观点）
+
+# 微信智能聊天助手
 
 开发环境：pycharm + windows10 + python3
 
@@ -27,7 +31,7 @@ data.rar为压缩文件，包含80万条垃圾数据，作为数据特征提取�
 4、服务器环境：linux ，服务器的项目目录为：var/www/liuluapp/
 
 
-# 运行结果
+# 本地运行结果如下
 
 首页http://127.0.0.1:5000/static/index.html：
 
@@ -39,7 +43,4 @@ data.rar为压缩文件，包含80万条垃圾数据，作为数据特征提取�
 
 ![功能页](https://github.com/liuluyeah/wechat_analyse/blob/master/%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA.png)
 
-# 声明
-
-本软件仅供学习交流，如作他用所承受的法律责任一概与作者无关（下载使用即代表你同意上述观点）
 
