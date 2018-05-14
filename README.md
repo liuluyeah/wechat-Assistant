@@ -10,7 +10,7 @@ data.rar为压缩文件，包含80万条垃圾数据，作为垃圾特征提取�
 
 其次，修改wenzhi.py中的apikey和密钥，本文件用来进行语义识别，详情见代码注释；
 
-文智语义接口技术文档详情如下：https://cloud.tencent.com/product/api ,主要用到 Python SDK 已经云 API 接口
+文智语义接口技术文档详情如下：https://cloud.tencent.com/product/api ,主要用到 Python SDK 以及云 API 接口
 
 
 
