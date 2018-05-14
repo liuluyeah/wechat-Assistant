@@ -1,19 +1,26 @@
 # wechat_analyse
 
-开发环境：pycharm + flask + windows10 + python3
+开发环境：pycharm + windows10 + python3
 
-# 数据说明
+# 数据以及项目说明
 
-data.rar为压缩文件，包含80万条垃圾数据，作为垃圾特征提取的数据源
+一、数据说明：data.rar为压缩文件，包含80万条垃圾数据，作为垃圾特征提取的数据源
 
-首先，需要在 https://console.qcloud.com/nlp/manage_app.cgi 申请自己的apikey和密钥；
+二、程序使用步骤
 
-其次，修改wenzhi.py中的apikey和密钥，本文件用来进行语义识别，详情见代码注释；
+1、首先，需要在 https://console.qcloud.com/nlp/manage_app.cgi 申请自己的apikey和密钥；
 
-文智语义接口技术文档详情如下：https://cloud.tencent.com/product/api ,主要用到 Python SDK 以及云 API 接口
+2、其次，修改wenzhi.py中的apikey和密钥，本文件用来进行语义识别，详情见代码注释；
 
+3、将项目导入pycharm环境中，配置好运行环境，运行即可。
 
+三、文档资料说明
 
+1、文智语义接口技术文档详情如下：https://cloud.tencent.com/product/api , http://nlp.qq.com/help.cgi 主要用到 Python SDK 以及云 API 接口
+
+2、网站框架：flask
+
+3、服务器环境：linux ，服务器的项目目录为：var/www/liuluapp/
 
 
 # 运行结果
